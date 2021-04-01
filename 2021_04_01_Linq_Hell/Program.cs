@@ -7,14 +7,17 @@ namespace _2021_04_01_Linq_Hell
     {
         static void Main(string[] args)
         {
-            int MinNumber = -100;
-            int MaxNumber = 100;
+            int MinNumber = -101;
+            int MaxNumber = 101;
             Random RandomNumberGenerator = new Random();
             int [] The20Numbers = new int [20];
-            for (int i = 0; i < The20Numbers; i++)
+            for (int i = 0; i < The20Numbers.Length; i++)
             {
                 The20Numbers[i] = RandomNumberGenerator.Next(MinNumber, MaxNumber);
             }
+            Console.WriteLine($"Neigiami skaiciai {0}", );
+
+
 
             Console.WriteLine("Goodbye Cruel World!");
             Console.WriteLine("---------------------------------------");
@@ -26,5 +29,4 @@ namespace _2021_04_01_Linq_Hell
             a) Suskaičiuoti teigiamas reikšmes.
             b) Suskaičiuoti neigiamas reikšmes.
             c) Atspausdinti kurių reikšmių daugiau (teigiamu/neigiamu/po lygiai).
-
 */
