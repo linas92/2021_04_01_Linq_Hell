@@ -10,7 +10,7 @@ namespace _2021_04_01_Linq_Hell
             int MinNumber = -100;
             int MaxNumber = 100;
             Random RandomNumberGenerator = new Random();
-            int [20] The20Numbers = new int [20];
+            int [] The20Numbers = new int [20];
             for (int i = 0; i < The20Numbers; i++)
             {
                 The20Numbers[i] = RandomNumberGenerator.Next(MinNumber, MaxNumber);
