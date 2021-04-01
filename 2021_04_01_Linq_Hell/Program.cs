@@ -5,8 +5,6 @@ namespace _2021_04_01_Linq_Hell
 {
     class Program
     {
-        public static List<int> skaiciai = new List<int> {-55, 93, 37, -17, 7, -82, 100,-55, -38, 37, 5, 7, 8, 10, -55, 3, 31, 5, 7, 8, 10,-55, 3, -94, 5, 7, 8, 10, };
-
         static void Main(string[] args)
         {
             int MinNumber = -100;
