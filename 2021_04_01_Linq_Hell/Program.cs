@@ -5,11 +5,13 @@ namespace _2021_04_01_Linq_Hell
 {
     class Program
     {
+        public static List<int> skaiciai = new List<int> {-55, 93, 37, -17, 7, -82, 100,-55, -38, 37, 5, 7, 8, 10, -55, 3, 31, 5, 7, 8, 10,-55, 3, -94, 5, 7, 8, 10, };
+
         static void Main(string[] args)
         {
-            /*Random rnd = new Random();
-            int RandomNumbers100 = rnd.Next(-100, 100);
-            GOD DAMMIT MAN REIK MASYVO! WTF*/
+            Console.WriteLine("Skaiciu maximali reiksme {0}",
+                skaiciai.Where(s => s <=0 ).Distinct()
+                );
 
             Console.WriteLine("Goodbye Cruel World!");
             Console.WriteLine("---------------------------------------");
@@ -17,3 +19,10 @@ namespace _2021_04_01_Linq_Hell
         }
     }
 }
+/*          Sugeneruoti 20 elementų masyvą su reikšmėmis nuo -100 iki 100.
+            a) Suskaičiuoti teigiamas reikšmes.
+            b) Suskaičiuoti neigiamas reikšmes.
+            c) Atspausdinti kurių reikšmių daugiau (teigiamu/neigiamu/po lygiai).
+
+
+*/
