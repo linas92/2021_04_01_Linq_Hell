@@ -7,9 +7,9 @@ namespace _2021_04_01_Linq_Hell
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
+            /*Random rnd = new Random();
             int RandomNumbers100 = rnd.Next(-100, 100);
-
+            GOD DAMMIT MAN REIK MASYVO! WTF*/
 
             Console.WriteLine("Goodbye Cruel World!");
             Console.WriteLine("---------------------------------------");
