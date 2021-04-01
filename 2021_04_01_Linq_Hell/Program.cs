@@ -10,7 +10,7 @@ namespace _2021_04_01_Linq_Hell
         static void Main(string[] args)
         {
             Console.WriteLine("Skaiciu maximali reiksme {0}",
-                skaiciai.Where(s => s <=0 ).Distinct()
+                skaiciai.Where(s => s >=0 ).Distinct()
                 );
 
             Console.WriteLine("Goodbye Cruel World!");
