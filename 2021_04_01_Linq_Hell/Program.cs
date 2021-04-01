@@ -9,9 +9,9 @@ namespace _2021_04_01_Linq_Hell
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Skaiciu maximali reiksme {0}",
-                skaiciai.Where(s => s >=0 ).Distinct()
-                );
+            int MinNumber = -100;
+            int MaxNumber = 100;
+            Random RandomNumberGenerator = new Random();
 
             Console.WriteLine("Goodbye Cruel World!");
             Console.WriteLine("---------------------------------------");
@@ -23,6 +23,5 @@ namespace _2021_04_01_Linq_Hell
             a) Suskaičiuoti teigiamas reikšmes.
             b) Suskaičiuoti neigiamas reikšmes.
             c) Atspausdinti kurių reikšmių daugiau (teigiamu/neigiamu/po lygiai).
-
 
 */
